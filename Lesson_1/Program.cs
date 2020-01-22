@@ -6,7 +6,9 @@ namespace Lesson_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            PrepareData data = new PrepareData();
+            double result = new Equation().EquationFirst(data.GetData());
+            Console.WriteLine(result);
         }
     }
 }
