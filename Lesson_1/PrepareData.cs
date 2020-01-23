@@ -8,30 +8,30 @@ namespace Lesson_1
     {
         public double[] GetData(int a)
         {
-            double[,] data = new double[,] {{ -3.45, 2.34, 1.45, 0.83 }, { 0.345, -2.25, 2.65, 3.99 }, { -2.98, 5.5, 0.045, 0.129 } };
+            double[,] data = new double[,] {{ -3.45, 2.34, 1.45, 0.83 }, { 0.345, -2.25, 2.65, 3.99 }, { -2.98, 5.5, 0.045, 0.129 }};
             double[] variables = new double[4];
             switch (a)
             {
                 case 1:
-                    for (int i = 0; i < 4; i++)
-                    {
-                        variables[i] = data[a-1, i];
-                    }
+                    variables = CreateArr(data, a);
                     break;
                 case 2:
-                    for (int i = 0; i < 4; i++)
-                    {
-                        variables[i] = data[a-1, i];
-                    }
+                    variables = CreateArr(data, a);
                     break;
                 case 3:
-                    for (int i = 0; i < 4; i++)
-                    {
-                        variables[i] = data[a-1, i];
-                    }
+                    variables = CreateArr(data, a);
                     break;
             }
             return variables;
+        }
+        public double[] CreateArr(double[,] arr, int a)
+        {
+            double[] mass = new double[4];
+            for (int i = 0; i < 4; i++)
+            {
+                mass[i] = arr[a - 1, i];
+            }
+            return mass;
         }
         //public double[] GetData()
         //{
