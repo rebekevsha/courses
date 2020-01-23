@@ -15,25 +15,24 @@ namespace Lesson_1
                 case 1:
                     for (int i = 0; i < 4; i++)
                     {
-                        variables[i] = data[0, i];
+                        variables[i] = data[a-1, i];
                     }
                     break;
                 case 2:
                     for (int i = 0; i < 4; i++)
                     {
-                        variables[i] = data[1, i];
+                        variables[i] = data[a-1, i];
                     }
                     break;
                 case 3:
                     for (int i = 0; i < 4; i++)
                     {
-                        variables[i] = data[2, i];
+                        variables[i] = data[a-1, i];
                     }
                     break;
             }
             return variables;
         }
-
         //public double[] GetData()
         //{
         //    double[] variables = new double[4];
