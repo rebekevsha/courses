@@ -17,7 +17,7 @@ namespace Lesson_1
             switch(cwcase)
             {
                 case 1:
-                    res = Math.Pow((Convert.ToDouble(4) * Math.Cosh(Math.Sqrt(Math.Abs(a / b)))) + (Convert.ToDouble(3) * Math.Acos(d)), c);
+                    res = Math.Pow((4 * Math.Cosh(Math.Sqrt(Math.Abs(a / b)))) + (3 * Math.Acos(d)), c);
                     break;
                 case 2:
                     res = ((5 * a) / Math.Sin(a)) + Math.Sqrt((MathF.Tanh(Convert.ToSingle(Math.Abs(b) * c))) / MathF.Log(Convert.ToSingle(d)));
