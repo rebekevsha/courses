@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lesson_1
+namespace LessonOne
 {
     class Equations
     {     
@@ -30,5 +30,3 @@ namespace Lesson_1
         }
     }
 }
-
-

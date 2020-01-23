@@ -1,0 +1,11 @@
+D:\repositories\courses\Lesson_1\bin\Debug\netcoreapp3.0\LessonOne.exe
+D:\repositories\courses\Lesson_1\bin\Debug\netcoreapp3.0\LessonOne.deps.json
+D:\repositories\courses\Lesson_1\bin\Debug\netcoreapp3.0\LessonOne.runtimeconfig.json
+D:\repositories\courses\Lesson_1\bin\Debug\netcoreapp3.0\LessonOne.runtimeconfig.dev.json
+D:\repositories\courses\Lesson_1\bin\Debug\netcoreapp3.0\LessonOne.dll
+D:\repositories\courses\Lesson_1\bin\Debug\netcoreapp3.0\LessonOne.pdb
+D:\repositories\courses\Lesson_1\obj\Debug\netcoreapp3.0\LessonOne.csprojAssemblyReference.cache
+D:\repositories\courses\Lesson_1\obj\Debug\netcoreapp3.0\LessonOne.AssemblyInfoInputs.cache
+D:\repositories\courses\Lesson_1\obj\Debug\netcoreapp3.0\LessonOne.AssemblyInfo.cs
+D:\repositories\courses\Lesson_1\obj\Debug\netcoreapp3.0\LessonOne.dll
+D:\repositories\courses\Lesson_1\obj\Debug\netcoreapp3.0\LessonOne.pdb

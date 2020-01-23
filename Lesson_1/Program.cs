@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Lesson_1
+namespace LessonOne
 {
     class Program
     {
@@ -14,7 +14,7 @@ namespace Lesson_1
                 double result = new Equations().Equation(data.GetData(i), i);
                 Console.WriteLine($"Результаты просчета уровнения {i}: " + result);
             }
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
     }
 }
