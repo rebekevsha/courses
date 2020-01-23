@@ -24,7 +24,7 @@ namespace Lesson_1
             }
             return variables;
         }
-        public double[] CreateArr(double[,] arr, int a)
+        private static double[] CreateArr(double[,] arr, int a)
         {
             double[] mass = new double[4];
             for (int i = 0; i < 4; i++)
