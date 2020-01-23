@@ -20,7 +20,7 @@ namespace Lesson_1
                     res = Math.Pow((4 * Math.Cosh(Math.Sqrt(Math.Abs(a / b)))) + (3 * Math.Acos(d)), c);
                     break;
                 case 2:
-                    res = ((5 * a) / Math.Sin(a)) + Math.Sqrt((MathF.Tanh(Convert.ToSingle(Math.Abs(b) * c))) / MathF.Log(Convert.ToSingle(d)));
+                    res = ((5 * a) / Math.Sin(a)) + Math.Sqrt(( Math.Tanh(Math.Abs(b) * c)) / Math.Log(d));
                     break;
                 case 3:
                     res = (Math.Sin(Math.Abs(a)) + Math.Cos(Math.Sqrt(b))) / (2 * Math.Tan(c) + Math.Pow(Math.E, d));
