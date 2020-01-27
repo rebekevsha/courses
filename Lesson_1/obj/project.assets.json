@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {}
+    ".NETCoreApp,Version=v3.0": {
+      "Mathlib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Mathlib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mathlib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Mathlib/1.0.0": {
+      "type": "project",
+      "path": "../Mathlib/Mathlib.csproj",
+      "msbuildProject": "../Mathlib/Mathlib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": []
+    ".NETCoreApp,Version=v3.0": [
+      "Mathlib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\user\\.nuget\\packages\\": {},
@@ -36,7 +54,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\repositories\\courses\\Mathlib\\Mathlib.csproj": {
+              "projectPath": "D:\\repositories\\courses\\Mathlib\\Mathlib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

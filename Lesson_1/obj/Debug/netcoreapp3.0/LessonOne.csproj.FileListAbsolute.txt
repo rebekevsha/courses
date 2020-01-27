@@ -9,3 +9,6 @@ D:\repositories\courses\Lesson_1\obj\Debug\netcoreapp3.0\LessonOne.AssemblyInfoI
 D:\repositories\courses\Lesson_1\obj\Debug\netcoreapp3.0\LessonOne.AssemblyInfo.cs
 D:\repositories\courses\Lesson_1\obj\Debug\netcoreapp3.0\LessonOne.dll
 D:\repositories\courses\Lesson_1\obj\Debug\netcoreapp3.0\LessonOne.pdb
+D:\repositories\courses\Lesson_1\bin\Debug\netcoreapp3.0\Mathlib.dll
+D:\repositories\courses\Lesson_1\bin\Debug\netcoreapp3.0\Mathlib.pdb
+D:\repositories\courses\Lesson_1\obj\Debug\netcoreapp3.0\LessonOne.csproj.CopyComplete

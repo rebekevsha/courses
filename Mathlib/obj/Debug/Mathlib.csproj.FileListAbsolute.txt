@@ -1,0 +1,5 @@
+D:\repositories\courses\Mathlib\bin\Debug\Mathlib.dll
+D:\repositories\courses\Mathlib\bin\Debug\Mathlib.pdb
+D:\repositories\courses\Mathlib\obj\Debug\Mathlib.csprojAssemblyReference.cache
+D:\repositories\courses\Mathlib\obj\Debug\Mathlib.dll
+D:\repositories\courses\Mathlib\obj\Debug\Mathlib.pdb
