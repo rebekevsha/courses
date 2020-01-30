@@ -1,0 +1,14 @@
+D:\Uklon\courses\LessonTwo\bin\Debug\netcoreapp3.0\LessonTwo.exe
+D:\Uklon\courses\LessonTwo\bin\Debug\netcoreapp3.0\LessonTwo.deps.json
+D:\Uklon\courses\LessonTwo\bin\Debug\netcoreapp3.0\LessonTwo.runtimeconfig.json
+D:\Uklon\courses\LessonTwo\bin\Debug\netcoreapp3.0\LessonTwo.runtimeconfig.dev.json
+D:\Uklon\courses\LessonTwo\bin\Debug\netcoreapp3.0\LessonTwo.dll
+D:\Uklon\courses\LessonTwo\bin\Debug\netcoreapp3.0\LessonTwo.pdb
+D:\Uklon\courses\LessonTwo\obj\Debug\netcoreapp3.0\LessonTwo.csprojAssemblyReference.cache
+D:\Uklon\courses\LessonTwo\obj\Debug\netcoreapp3.0\LessonTwo.AssemblyInfoInputs.cache
+D:\Uklon\courses\LessonTwo\obj\Debug\netcoreapp3.0\LessonTwo.AssemblyInfo.cs
+D:\Uklon\courses\LessonTwo\obj\Debug\netcoreapp3.0\LessonTwo.dll
+D:\Uklon\courses\LessonTwo\obj\Debug\netcoreapp3.0\LessonTwo.pdb
+D:\Uklon\courses\LessonTwo\bin\Debug\netcoreapp3.0\Mathlib.dll
+D:\Uklon\courses\LessonTwo\bin\Debug\netcoreapp3.0\Mathlib.pdb
+D:\Uklon\courses\LessonTwo\obj\Debug\netcoreapp3.0\LessonTwo.csproj.CopyComplete

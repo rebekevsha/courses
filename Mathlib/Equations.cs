@@ -23,5 +23,10 @@ namespace Mathlib
             double res = (Math.Sin(Math.Abs(a)) + Math.Cos(Math.Sqrt(b))) / (2 * Math.Tan(c) + Math.Pow(Math.E, d));
             return res;
         }
+        public static double EquationFour(double i, double k, double z)
+        {
+            double res = (1 / Math.Sqrt(z * i)) + (Math.Tan(k / i));
+            return res;
+        }
     }
 }

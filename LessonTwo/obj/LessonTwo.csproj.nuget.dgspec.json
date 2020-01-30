@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Uklon\\courses\\Lesson_1\\LessonOne.csproj": {}
+    "D:\\Uklon\\courses\\LessonTwo\\LessonTwo.csproj": {}
   },
   "projects": {
-    "D:\\Uklon\\courses\\Lesson_1\\LessonOne.csproj": {
+    "D:\\Uklon\\courses\\LessonTwo\\LessonTwo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Uklon\\courses\\Lesson_1\\LessonOne.csproj",
-        "projectName": "LessonOne",
-        "projectPath": "D:\\Uklon\\courses\\Lesson_1\\LessonOne.csproj",
+        "projectUniqueName": "D:\\Uklon\\courses\\LessonTwo\\LessonTwo.csproj",
+        "projectName": "LessonTwo",
+        "projectPath": "D:\\Uklon\\courses\\LessonTwo\\LessonTwo.csproj",
         "packagesPath": "C:\\Users\\Taras\\.nuget\\packages\\",
-        "outputPath": "D:\\Uklon\\courses\\Lesson_1\\obj\\",
+        "outputPath": "D:\\Uklon\\courses\\LessonTwo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
