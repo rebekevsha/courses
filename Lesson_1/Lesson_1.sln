@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LessonOne", "LessonOne.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathlib", "..\Mathlib\Mathlib.csproj", "{319CF21D-23BA-4C55-990B-D40AD556A000}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LessonTwo", "..\LessonTwo\LessonTwo.csproj", "{967DAFDE-3315-4288-8FBF-9CCD1BF918CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LessonTwo", "..\LessonTwo\LessonTwo.csproj", "{967DAFDE-3315-4288-8FBF-9CCD1BF918CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

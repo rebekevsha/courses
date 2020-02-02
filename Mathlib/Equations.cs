@@ -28,5 +28,27 @@ namespace Mathlib
             double res = (1 / Math.Sqrt(z * i)) + (Math.Tan(k / i));
             return res;
         }
+        public static double EquationFiveOne(double t, double l)
+        {
+            double res = (1 / t) * l;
+            return res;
+        }
+        public static double EquationFiveTwo(double t, double l)
+        {
+            double res = (1 / Math.Sqrt(t)) * l;
+            return res;
+        }
+        public static double EquationSix(double i)
+        {
+            double res = Math.Pow((-1), i) / FactNaive(i);
+            return res;
+        }
+        static double FactNaive(double n)
+        {
+            int r = 1;
+            for (int i = 2; i <= n; ++i)
+                r *= i;
+            return r;
+        }
     }
 }
