@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repositories\\courses\\LessonTwo\\LessonTwo.csproj": {}
+    "D:\\Uklon\\courses\\LessonTwo\\LessonTwo.csproj": {}
   },
   "projects": {
-    "D:\\repositories\\courses\\LessonTwo\\LessonTwo.csproj": {
+    "D:\\Uklon\\courses\\LessonTwo\\LessonTwo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repositories\\courses\\LessonTwo\\LessonTwo.csproj",
+        "projectUniqueName": "D:\\Uklon\\courses\\LessonTwo\\LessonTwo.csproj",
         "projectName": "LessonTwo",
-        "projectPath": "D:\\repositories\\courses\\LessonTwo\\LessonTwo.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\repositories\\courses\\LessonTwo\\obj\\",
+        "projectPath": "D:\\Uklon\\courses\\LessonTwo\\LessonTwo.csproj",
+        "packagesPath": "C:\\Users\\Taras\\.nuget\\packages\\",
+        "outputPath": "D:\\Uklon\\courses\\LessonTwo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Taras\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\repositories\\courses\\Mathlib\\Mathlib.csproj": {
-                "projectPath": "D:\\repositories\\courses\\Mathlib\\Mathlib.csproj"
+              "D:\\Uklon\\courses\\Mathlib\\Mathlib.csproj": {
+                "projectPath": "D:\\Uklon\\courses\\Mathlib\\Mathlib.csproj"
               }
             }
           }
@@ -59,16 +59,16 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\repositories\\courses\\Mathlib\\Mathlib.csproj": {
+    "D:\\Uklon\\courses\\Mathlib\\Mathlib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repositories\\courses\\Mathlib\\Mathlib.csproj",
+        "projectUniqueName": "D:\\Uklon\\courses\\Mathlib\\Mathlib.csproj",
         "projectName": "Mathlib",
-        "projectPath": "D:\\repositories\\courses\\Mathlib\\Mathlib.csproj"
+        "projectPath": "D:\\Uklon\\courses\\Mathlib\\Mathlib.csproj"
       },
       "frameworks": {
         "net472": {}
