@@ -8,7 +8,7 @@ namespace LessonThree
         {
             //Lab 5 - Task 1
             Console.WriteLine("Lab 5 - Task 1 - Найти столбцы с мин и макс елементами и заменить местами(при повторении мин или макс для мин берем первый для макс берем последний)");
-            int[,] matrix = new int[,] { { 1, 1, 1, 4, 5 }, { 3, 4, 5, 6, 7 }, { 5, 6, 7, 8, 9 }, { 7, 8, 9, 10, 11 } };
+            int[,] matrix = new int[,] { { 1, 1, 0, 4, 5 }, { 3, 4, 5, 6, 7 }, { 5, 6, 7, 8, 9 }, { 7, 8, 9, 10, 11 } };
             PrintMatrix(matrix);
             Console.WriteLine("Матрица после преобразования");
             PrintMatrix(SwapColumn(matrix));
@@ -24,6 +24,7 @@ namespace LessonThree
             //Lab 4 - Task 3
             Console.WriteLine("Lab 4 - Task 3 - До всех отрицательных додать максимальный елемент, всем что = 0 присвоить 1, все положительные умножить на 2");
             CreateNewArr(new int[] { 1, 2, -5, 20, 30, -45, 3 });
+            Console.ReadKey();
         }
 
         //Lab 4 - Task 1--------------------------------------------------------------------------------------------------------
@@ -67,11 +68,11 @@ namespace LessonThree
                 {
                     arrAfterEdit[i] = arr[i] + maxVal;
                 }
-                if (arr[i] == 0)
+                else if (arr[i] == 0)
                 {
                     arrAfterEdit[i] = 1;
                 }
-                if (arr[i] > 0)
+                else if (arr[i] > 0)
                 {
                     arrAfterEdit[i] = arr[i] * 2;
                 }
@@ -135,7 +136,6 @@ namespace LessonThree
                 tempVal = matrix[i, minValColumn[0]];
                 matrix[i, minValColumn[0]] = matrix[i, maxValColumn[maxValColumn.Length - 1]];
                 matrix[i, maxValColumn[maxValColumn.Length - 1]] = tempVal;
-                tempVal = 0;
             }
             return matrix;
         }
