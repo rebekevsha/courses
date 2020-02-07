@@ -8,8 +8,8 @@ namespace LessonThree
         {
             //Lab 5 - Task 1
             Console.WriteLine("Lab 5 - Task 1 - Найти столбцы с мин и макс елементами и заменить местами(при повторении мин или макс для мин берем первый для макс берем последний)");
-            int[,] matrix = new int[,] { { 1, 1, 0, 4, 5 }, { 3, 4, 5, 6, 7 }, { 5, 6, 7, 8, 9 }, { 7, 8, 9, 10, 11 } };
-            PrintMatrix(matrix);
+            int[,] matrixLab5 = new int[,] { { 1, 1, 0, 4, 5 }, { 3, 4, 5, 6, 7 }, { 5, 6, 7, 8, 9 }, { 7, 8, 9, 10, 11 } };
+            PrintMatrix(matrixLab5);
 
             Console.WriteLine("Матрица после преобразования");
             PrintMatrix(SwapColumn(matrix));
