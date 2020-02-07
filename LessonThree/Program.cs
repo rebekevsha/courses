@@ -113,6 +113,7 @@ namespace LessonThree
                     {
                         Array.Resize(ref minValColumn, 1);
                         minValColumn[0] = j;
+                        minVal = matrix[i, j];
                     }
                     if (matrix[i, j] == minVal)
                     {
@@ -123,6 +124,7 @@ namespace LessonThree
                     {
                         Array.Resize(ref maxValColumn, 1);
                         maxValColumn[0] = j;
+                        maxVal = matrix[i, j];
                     }
                     if (matrix[i, j] == maxVal)
                     {
