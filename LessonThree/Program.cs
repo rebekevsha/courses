@@ -40,9 +40,8 @@ namespace LessonThree
         }
 
         //Lab 4 - Task 2--------------------------------------------------------------------------------------------------------
-        static double FindMaxAbsVal(double[] _arr)
+        static double FindMaxAbsVal(double[] arr)
         {
-            double[] arr = _arr;
             double maxValue = arr[0];
             for (int i = 0; i < arr.Length; ++i)
             {
@@ -51,17 +50,15 @@ namespace LessonThree
             }
             return maxValue;
         }
-        static double SumOfMaxAbsValAndSecondVal(double[] _arr)
+        static double SumOfMaxAbsValAndSecondVal(double[] arr)
         {
-            double[] arr = _arr;
             double sum = arr[1] + FindMaxAbsVal(arr);
             return sum;
         }
 
         //Lab 4 - Task 3--------------------------------------------------------------------------------------------------------
-        static void CreateNewArr(int[] _arr)
+        static void CreateNewArr(int[] arr)
         {
-            int[] arr = _arr;
             int maxVal = FindMaxVal(arr);
             int[] arrAfterEdit = arr;
             for (int i = 0; i < arr.Length; ++i)
@@ -136,8 +133,8 @@ namespace LessonThree
             for (int i = 0; i < matrix.GetLength(0); ++i)
             {
                 tempVal = matrix[i, minValColumn[0]];
-                matrix[i, minValColumn[0]] = matrix[i, maxValColumn[maxValColumn.Length-1]];
-                matrix[i, maxValColumn[maxValColumn.Length-1]] = tempVal;
+                matrix[i, minValColumn[0]] = matrix[i, maxValColumn[maxValColumn.Length - 1]];
+                matrix[i, maxValColumn[maxValColumn.Length - 1]] = tempVal;
                 tempVal = 0;
             }
             return matrix;
