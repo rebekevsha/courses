@@ -1,29 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {
-      "Mathlib/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Mathlib.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Mathlib.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.0": {}
   },
-  "libraries": {
-    "Mathlib/1.0.0": {
-      "type": "project",
-      "path": "../Mathlib/Mathlib.csproj",
-      "msbuildProject": "../Mathlib/Mathlib.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": [
-      "Mathlib >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
     "C:\\Users\\Taras\\.nuget\\packages\\": {},
@@ -32,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Uklon\\courses\\courses\\Lesson_1\\LessonOne.csproj",
-      "projectName": "LessonOne",
-      "projectPath": "D:\\Uklon\\courses\\courses\\Lesson_1\\LessonOne.csproj",
+      "projectUniqueName": "D:\\Uklon\\courses\\courses\\LessonFour\\LessonFour.csproj",
+      "projectName": "LessonFour",
+      "projectPath": "D:\\Uklon\\courses\\courses\\LessonFour\\LessonFour.csproj",
       "packagesPath": "C:\\Users\\Taras\\.nuget\\packages\\",
-      "outputPath": "D:\\Uklon\\courses\\courses\\Lesson_1\\obj\\",
+      "outputPath": "D:\\Uklon\\courses\\courses\\LessonFour\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -54,11 +36,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {
-            "D:\\Uklon\\courses\\courses\\Mathlib\\Mathlib.csproj": {
-              "projectPath": "D:\\Uklon\\courses\\courses\\Mathlib\\Mathlib.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

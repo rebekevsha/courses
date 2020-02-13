@@ -12,7 +12,7 @@ namespace LessonThree
             PrintMatrix(matrixLab5);
             Console.WriteLine("Матрица после преобразования");
             PrintMatrix(SwapColumn(matrixLab5));
-
+            
             //Lab 4 - Task 1
             Console.WriteLine("Lab 4 - Task 1 - Найти максимальный елемент массива");
             Console.WriteLine(FindMaxVal(new int[] { 1, 2, -5, 20, 30, -45, 3 }));

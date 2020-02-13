@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Uklon\\courses\\courses\\LessonTwo\\LessonTwo.csproj": {}
+    "D:\\Uklon\\courses\\courses\\LessonFour\\LessonFour.csproj": {}
   },
   "projects": {
-    "D:\\Uklon\\courses\\courses\\LessonTwo\\LessonTwo.csproj": {
+    "D:\\Uklon\\courses\\courses\\LessonFour\\LessonFour.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Uklon\\courses\\courses\\LessonTwo\\LessonTwo.csproj",
-        "projectName": "LessonTwo",
-        "projectPath": "D:\\Uklon\\courses\\courses\\LessonTwo\\LessonTwo.csproj",
+        "projectUniqueName": "D:\\Uklon\\courses\\courses\\LessonFour\\LessonFour.csproj",
+        "projectName": "LessonFour",
+        "projectPath": "D:\\Uklon\\courses\\courses\\LessonFour\\LessonFour.csproj",
         "packagesPath": "C:\\Users\\Taras\\.nuget\\packages\\",
-        "outputPath": "D:\\Uklon\\courses\\courses\\LessonTwo\\obj\\",
+        "outputPath": "D:\\Uklon\\courses\\courses\\LessonFour\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -29,11 +29,7 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
-            "projectReferences": {
-              "D:\\Uklon\\courses\\courses\\Mathlib\\Mathlib.csproj": {
-                "projectPath": "D:\\Uklon\\courses\\courses\\Mathlib\\Mathlib.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -61,17 +57,6 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
-      }
-    },
-    "D:\\Uklon\\courses\\courses\\Mathlib\\Mathlib.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Uklon\\courses\\courses\\Mathlib\\Mathlib.csproj",
-        "projectName": "Mathlib",
-        "projectPath": "D:\\Uklon\\courses\\courses\\Mathlib\\Mathlib.csproj"
-      },
-      "frameworks": {
-        "net472": {}
       }
     }
   }

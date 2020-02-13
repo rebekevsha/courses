@@ -20,3 +20,14 @@ D:\Uklon\courses\LessonThree\obj\Debug\netcoreapp3.0\LessonThree.AssemblyInfoInp
 D:\Uklon\courses\LessonThree\obj\Debug\netcoreapp3.0\LessonThree.AssemblyInfo.cs
 D:\Uklon\courses\LessonThree\obj\Debug\netcoreapp3.0\LessonThree.dll
 D:\Uklon\courses\LessonThree\obj\Debug\netcoreapp3.0\LessonThree.pdb
+D:\Uklon\courses\courses\LessonThree\obj\Debug\netcoreapp3.0\LessonThree.csprojAssemblyReference.cache
+D:\Uklon\courses\courses\LessonThree\obj\Debug\netcoreapp3.0\LessonThree.AssemblyInfoInputs.cache
+D:\Uklon\courses\courses\LessonThree\obj\Debug\netcoreapp3.0\LessonThree.AssemblyInfo.cs
+D:\Uklon\courses\courses\LessonThree\obj\Debug\netcoreapp3.0\LessonThree.dll
+D:\Uklon\courses\courses\LessonThree\obj\Debug\netcoreapp3.0\LessonThree.pdb
+D:\Uklon\courses\courses\LessonThree\bin\Debug\netcoreapp3.0\LessonThree.exe
+D:\Uklon\courses\courses\LessonThree\bin\Debug\netcoreapp3.0\LessonThree.deps.json
+D:\Uklon\courses\courses\LessonThree\bin\Debug\netcoreapp3.0\LessonThree.runtimeconfig.json
+D:\Uklon\courses\courses\LessonThree\bin\Debug\netcoreapp3.0\LessonThree.runtimeconfig.dev.json
+D:\Uklon\courses\courses\LessonThree\bin\Debug\netcoreapp3.0\LessonThree.dll
+D:\Uklon\courses\courses\LessonThree\bin\Debug\netcoreapp3.0\LessonThree.pdb
