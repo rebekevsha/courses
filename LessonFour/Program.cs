@@ -1,9 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace LessonFour
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -22,7 +23,7 @@ namespace LessonFour
             Console.WriteLine("Bubble Sort : [{0}]", string.Join(", ", numbers2));
             
         }
-        static void InsertionSort(long[] numbers)
+        public static void InsertionSort(long[] numbers)
         {
             for (int i = 0; i < numbers.Length - 1; ++i)
             {
@@ -35,7 +36,7 @@ namespace LessonFour
                 }
             }
         }
-        static void BubbleSort(long[] numbers)
+        public static void BubbleSort(long[] numbers)
         {
             bool swapped = true;
             while (swapped == true)
@@ -57,5 +58,35 @@ namespace LessonFour
             mass[num1] = mass[num2];
             mass[num2] = temp;
         }
+        public static bool IsUnique(string str)
+        {
+            var Словарь = new HashSet<char>();
+
+            for (int i = 0; i < str.Length - 1; i++)
+            {
+                if (!Словарь.Contains(str[i]))
+                {
+                    Словарь.Add(str[i]);
+                }
+                else
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        public static string Reverse(string originalString)
+        {
+            char[] reversedString = new char[originalString.Length];
+
+            for (int i = originalString.Length - 1; i >= 0; i--)
+
+                reversedString[originalString.Length - i - 1] = originalString[i];
+
+            return new string(reversedString);
+        }
+
     }
 }

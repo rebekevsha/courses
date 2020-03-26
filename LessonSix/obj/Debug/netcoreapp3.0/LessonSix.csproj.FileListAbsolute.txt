@@ -1,0 +1,11 @@
+D:\Uklon\courses\courses\LessonSix\bin\Debug\netcoreapp3.0\LessonSix.exe
+D:\Uklon\courses\courses\LessonSix\bin\Debug\netcoreapp3.0\LessonSix.deps.json
+D:\Uklon\courses\courses\LessonSix\bin\Debug\netcoreapp3.0\LessonSix.runtimeconfig.json
+D:\Uklon\courses\courses\LessonSix\bin\Debug\netcoreapp3.0\LessonSix.runtimeconfig.dev.json
+D:\Uklon\courses\courses\LessonSix\bin\Debug\netcoreapp3.0\LessonSix.dll
+D:\Uklon\courses\courses\LessonSix\bin\Debug\netcoreapp3.0\LessonSix.pdb
+D:\Uklon\courses\courses\LessonSix\obj\Debug\netcoreapp3.0\LessonSix.AssemblyInfoInputs.cache
+D:\Uklon\courses\courses\LessonSix\obj\Debug\netcoreapp3.0\LessonSix.AssemblyInfo.cs
+D:\Uklon\courses\courses\LessonSix\obj\Debug\netcoreapp3.0\LessonSix.dll
+D:\Uklon\courses\courses\LessonSix\obj\Debug\netcoreapp3.0\LessonSix.pdb
+D:\Uklon\courses\courses\LessonSix\obj\Debug\netcoreapp3.0\LessonSix.csprojAssemblyReference.cache

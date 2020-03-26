@@ -8,3 +8,8 @@ D:\Uklon\courses\Mathlib\bin\Debug\Mathlib.pdb
 D:\Uklon\courses\Mathlib\obj\Debug\Mathlib.csprojAssemblyReference.cache
 D:\Uklon\courses\Mathlib\obj\Debug\Mathlib.dll
 D:\Uklon\courses\Mathlib\obj\Debug\Mathlib.pdb
+D:\Uklon\courses\courses\Mathlib\bin\Debug\Mathlib.dll
+D:\Uklon\courses\courses\Mathlib\bin\Debug\Mathlib.pdb
+D:\Uklon\courses\courses\Mathlib\obj\Debug\Mathlib.csprojAssemblyReference.cache
+D:\Uklon\courses\courses\Mathlib\obj\Debug\Mathlib.dll
+D:\Uklon\courses\courses\Mathlib\obj\Debug\Mathlib.pdb

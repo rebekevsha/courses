@@ -20,7 +20,6 @@ D:\Uklon\courses\LessonThree\obj\Debug\netcoreapp3.0\LessonThree.AssemblyInfoInp
 D:\Uklon\courses\LessonThree\obj\Debug\netcoreapp3.0\LessonThree.AssemblyInfo.cs
 D:\Uklon\courses\LessonThree\obj\Debug\netcoreapp3.0\LessonThree.dll
 D:\Uklon\courses\LessonThree\obj\Debug\netcoreapp3.0\LessonThree.pdb
-D:\Uklon\courses\courses\LessonThree\obj\Debug\netcoreapp3.0\LessonThree.csprojAssemblyReference.cache
 D:\Uklon\courses\courses\LessonThree\obj\Debug\netcoreapp3.0\LessonThree.AssemblyInfoInputs.cache
 D:\Uklon\courses\courses\LessonThree\obj\Debug\netcoreapp3.0\LessonThree.AssemblyInfo.cs
 D:\Uklon\courses\courses\LessonThree\obj\Debug\netcoreapp3.0\LessonThree.dll

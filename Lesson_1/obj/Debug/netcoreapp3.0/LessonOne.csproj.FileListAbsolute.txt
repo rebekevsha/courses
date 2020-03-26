@@ -12,3 +12,17 @@ D:\repositories\courses\Lesson_1\obj\Debug\netcoreapp3.0\LessonOne.pdb
 D:\repositories\courses\Lesson_1\bin\Debug\netcoreapp3.0\Mathlib.dll
 D:\repositories\courses\Lesson_1\bin\Debug\netcoreapp3.0\Mathlib.pdb
 D:\repositories\courses\Lesson_1\obj\Debug\netcoreapp3.0\LessonOne.csproj.CopyComplete
+D:\Uklon\courses\courses\Lesson_1\bin\Debug\netcoreapp3.0\LessonOne.exe
+D:\Uklon\courses\courses\Lesson_1\bin\Debug\netcoreapp3.0\LessonOne.deps.json
+D:\Uklon\courses\courses\Lesson_1\bin\Debug\netcoreapp3.0\LessonOne.runtimeconfig.json
+D:\Uklon\courses\courses\Lesson_1\bin\Debug\netcoreapp3.0\LessonOne.runtimeconfig.dev.json
+D:\Uklon\courses\courses\Lesson_1\bin\Debug\netcoreapp3.0\LessonOne.dll
+D:\Uklon\courses\courses\Lesson_1\bin\Debug\netcoreapp3.0\LessonOne.pdb
+D:\Uklon\courses\courses\Lesson_1\bin\Debug\netcoreapp3.0\Mathlib.dll
+D:\Uklon\courses\courses\Lesson_1\bin\Debug\netcoreapp3.0\Mathlib.pdb
+D:\Uklon\courses\courses\Lesson_1\obj\Debug\netcoreapp3.0\LessonOne.csprojAssemblyReference.cache
+D:\Uklon\courses\courses\Lesson_1\obj\Debug\netcoreapp3.0\LessonOne.AssemblyInfoInputs.cache
+D:\Uklon\courses\courses\Lesson_1\obj\Debug\netcoreapp3.0\LessonOne.AssemblyInfo.cs
+D:\Uklon\courses\courses\Lesson_1\obj\Debug\netcoreapp3.0\LessonOne.csproj.CopyComplete
+D:\Uklon\courses\courses\Lesson_1\obj\Debug\netcoreapp3.0\LessonOne.dll
+D:\Uklon\courses\courses\Lesson_1\obj\Debug\netcoreapp3.0\LessonOne.pdb
