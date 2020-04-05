@@ -1,5 +1,0 @@
-D:\repositories\courses\Mathlib\bin\Release\Mathlib.dll
-D:\repositories\courses\Mathlib\bin\Release\Mathlib.pdb
-D:\repositories\courses\Mathlib\obj\Release\Mathlib.csprojAssemblyReference.cache
-D:\repositories\courses\Mathlib\obj\Release\Mathlib.dll
-D:\repositories\courses\Mathlib\obj\Release\Mathlib.pdb
