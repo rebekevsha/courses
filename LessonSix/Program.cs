@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text;
 using System.Collections.Generic;
+using System.Collections;
 
 namespace LessonSix
 {
@@ -38,74 +39,23 @@ namespace LessonSix
             //act
             //=======================================================================================================
             petroBamper.Videos.ForEach(i => Console.Write("-- \"{0}\" / {1}\n", i.Name, i.Url));
+            
             Console.WriteLine();
-            GetTotalVlogViews(petroBamper);
+            Video.GetTotalVlogViews(petroBamper);
             Console.WriteLine();
-            GetVideoThatHaveMoreLikelyComment(petroBamper);
+            Video.GetVideoThatHaveMoreLikelyComment(petroBamper);
             Console.WriteLine();
-            GetDislikelyVideo(petroBamper);
+            Video.GetDislikelyVideo(petroBamper);
             Console.ReadLine();
-
-            //Helpers
-            //=======================================================================================================
-            static void GetVideoThatHaveMoreLikelyComment(Vlog vlog)
-            {
-                Video videoWithLikelyComment = null;
-                Comment likelyComment = null;
-                foreach (var video in vlog.Videos)
-                {
-                    int videoLikes = video.Like;
-                    foreach (var coment in video.Coments)
-                    {
-                        if (videoLikes < coment.Like)
-                            videoWithLikelyComment = video;
-                            likelyComment = coment;
-                    }
-                }
-                if (videoWithLikelyComment != null && likelyComment != null)
-                    Console.WriteLine($"Video: \"{videoWithLikelyComment.Name}\" have a comment: \"{likelyComment.Text}\" that more popular than video.((((");
-            }
-
-            static void GetTotalVlogViews(Vlog vlog)
-            {
-                int totalCount = 0;
-                foreach (var item in vlog.Videos)
-                {
-                    totalCount += item.ViewCounter;
-                }
-                Console.WriteLine($"Vloger \"{vlog.Vloger}\" has totaly {totalCount} views.");
-            }
-
-            static void GetDislikelyVideo(Vlog vlog)
-            {
-                List<Video> shitVideo = new List<Video>();
-                int dislikes = 0;
-                foreach (Video video in vlog.Videos)
-                {
-                    if (dislikes < video.Dislike)
-                    {
-                        dislikes = video.Dislike;
-                        shitVideo.RemoveRange(0, shitVideo.Count);
-                        shitVideo.Add(video);
-                    }
-                    else if (dislikes == video.Dislike)
-                    {
-                        shitVideo.Add(video);
-                    }
-                }
-                shitVideo.ForEach(i => Console.Write("The shit video is: \"{0}\"\t", i.Name));
-            }
-            //=======================================================================================================
         }
     }
-    class Vlog
+    public class Vlog
     {
         public Vlog() { Videos = new List<Video>(); }
         public string Vloger { get; set; }
         public List<Video> Videos { get; set; }
-
     }
-    class Video : Reaction
+    public class Video : Reaction, IEnumerable
     {
         public Video() 
         {
@@ -119,13 +69,68 @@ namespace LessonSix
         public int ViewCounter { get; set; }
         public List<Comment> Coments { get; set; }
 
+        public static void GetVideoThatHaveMoreLikelyComment(Vlog vlog)
+        {
+            Video videoWithLikelyComment = null;
+            Comment likelyComment = null;
+            foreach (var video in vlog.Videos)
+            {
+                int videoLikes = video.Like;
+                foreach (var coment in video.Coments)
+                {
+                    if (videoLikes < coment.Like)
+                        videoWithLikelyComment = video;
+                    likelyComment = coment;
+                }
+            }
+            if (videoWithLikelyComment != null && likelyComment != null)
+                Console.WriteLine($"Video: \"{videoWithLikelyComment.Name}\" have a comment: \"{likelyComment.Text}\" that more popular than video.((((");
+        }
+
+        public static void GetTotalVlogViews(Vlog vlog)
+        {
+            int totalCount = 0;
+            foreach (var item in vlog.Videos)
+            {
+                totalCount += item.ViewCounter;
+            }
+            Console.WriteLine($"Vloger \"{vlog.Vloger}\" has totaly {totalCount} views.");
+        }
+
+        public static void GetDislikelyVideo(Vlog vlog)
+        {
+            List<Video> shitVideo = new List<Video>();
+            int dislikes = 0;
+            foreach (Video video in vlog.Videos)
+            {
+                if (dislikes < video.Dislike)
+                {
+                    dislikes = video.Dislike;
+                    if (shitVideo.Count > 0)
+                    {
+                        shitVideo.Clear();
+                    }
+                    shitVideo.Add(video);
+                }
+                else if (dislikes == video.Dislike)
+                {
+                    shitVideo.Add(video);
+                }
+            }
+            shitVideo.ForEach(i => Console.Write("The shit video is: \"{0}\"\t", i.Name));
+        }
+
         public override string ToString()
         { 
             return $"Video: \"{Name}\" / Views: {ViewCounter} / Likes: {Like} / Dislikes: {Dislike} /";
         }
 
+        public IEnumerator GetEnumerator()
+        {
+            return Coments.GetEnumerator();
+        }
     }
-    class Comment : Reaction
+    public class Comment : Reaction
     {
         public Comment() 
         {
@@ -139,7 +144,7 @@ namespace LessonSix
             return $"Comment: \"{Text}\" / Likes: {Like} / Dislikes: {Dislike}";
         }
     }
-    class Reaction
+    public class Reaction
     {
         public int Like { get; set; }
         public int Dislike { get; set; }
